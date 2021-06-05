@@ -6,7 +6,7 @@ const shortid = require('shortid');
 const app = express();
 app.use(bodyParser.json())
 
-mongoose.connect("mongodb+srv://ashar1:ashar1@cluster0.ybb8j.mongodb.net/ashardb?retryWrites=true&w=majority" , {
+mongoose.connect("  " , {
         useNewUrlParser : true ,
         useCreateIndex : true ,
         useUnifiedTopology : true } , 
